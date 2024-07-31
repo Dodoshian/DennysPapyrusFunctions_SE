@@ -451,15 +451,6 @@ void SetPerkDescription(RE::StaticFunctionTag*, RE::BGSPerk* perkPaste, RE::BGSP
 }
 
 /*
-Sets the perk as playable or nonplayable. Doesn't really do anything.
-*/
-void SetPerkPlayable(RE::StaticFunctionTag*, RE::BGSPerk* perk, bool bPlayable)
-{ 
-	//logger::info("SetPerkPlayable");
-	perk->data.playable = bPlayable; 
-}
-
-/*
 Sets the explosion of a projectile
 */
 void SetProjectileExplosion(RE::StaticFunctionTag*, BGSProjectile* proj, RE::BGSExplosion* expl) {
