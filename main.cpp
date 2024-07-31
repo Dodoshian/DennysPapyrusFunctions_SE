@@ -566,7 +566,6 @@ bool BindPapyrusFunctions(RE::BSScript::IVirtualMachine* vm)
 	vm->RegisterFunction("SetExplosionRadius", "DennysPapyrusFunctions", SetExplosionRadius);
 	vm->RegisterFunction("GetExplosionRadius", "DennysPapyrusFunctions", GetExplosionRadius);
 	vm->RegisterFunction("SetPerkDescription", "DennysPapyrusFunctions", SetPerkDescription);
-	vm->RegisterFunction("SetPerkPlayable", "DennysPapyrusFunctions", SetPerkPlayable);
 
 	vm->RegisterFunction("SetProjectileExplosion", "DennysPapyrusFunctions", SetProjectileExplosion);
 	vm->RegisterFunction("SetWeaponDetectionLevel", "DennysPapyrusFunctions", SetWeaponDetectionLevel);
